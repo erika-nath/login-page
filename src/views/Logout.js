@@ -1,9 +1,10 @@
+import { useEffect } from "react";
+import { useAuthContext } from "../contexts/authContext";
+
 const Logout = () =>{
-    return (
-        <>
-        <h1>Hola logout</h1>
-        </>
-    )
+    const {logout}= useAuthContext();
+    useEffect(()=> logout())
+    return null;
     }
     
     export {Logout}
