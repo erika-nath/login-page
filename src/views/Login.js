@@ -1,6 +1,6 @@
 import { useAuthContext } from "../contexts/authContext"
 import { useState } from "react";
-import { MAGIC_WORD } from "../conts/magicWord";
+import { MAGIC_WORD } from "../const/magicWord";
 
 
 const Login = () =>{
@@ -19,7 +19,7 @@ function handleSubmit(event){
 }
 
    return (
-       <div>
+       <div className="login">
         <h1>Login</h1>
         <form onSubmit= {handleSubmit}>
             <input type = "text" value={magicWord} onChange={handleInputChange} />

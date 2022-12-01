@@ -1,1 +1,1 @@
-export const MAGIC_WORD = 'LOQUESEA'
+export const MAGIC_WORD = 'DASHBOARD2023'

@@ -5,8 +5,12 @@ const Private = () =>{
 
 return (
     <>
-    <h1>Hola private</h1>
+    <div className='private'>
+    <h1>BIENVENIDO</h1>
+    <h2>Te encuentras dentro del dashboard</h2>
+
     <Link to= {LOGOUT}>Cerrar sesion</Link>
+    </div>
     </>
 )
 }

@@ -12,7 +12,7 @@ const PublicRoute = () => {
     return(
         <div>
             
-            <h1>Hokaaa</h1>
+            <h1>DASHBOARD REFACCIONARIA AUTOCITY</h1>
             <Outlet />
         </div>
     );
